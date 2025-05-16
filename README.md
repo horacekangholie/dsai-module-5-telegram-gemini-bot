@@ -28,16 +28,11 @@ Build command: `pip install -r requirements.txt`
 Start commnad: `python bot.py`
 
 ### Result screenshots
-
-| ![Alt Text](/assets/Screenshot_1.jpg) | ![Alt Text]((/assets/Screenshot_2.jpg) | ![Alt Text]((/assets/Screenshot_3.jpg) |
-|:-------------------------------------:|:-------------------------------------:|:---------------------------------------:|
-
-
 <table>
   <tr>
-    <td><img src="/assets/Screenshot_1.jpg" alt="Image 1" width="200"></td>
-    <td><img src="/assets/Screenshot_2.jpg" alt="Image 1" width="200"></td>
-    <td><img src="/assets/Screenshot_3.jpg" alt="Image 1" width="200"></td>
+    <td><img src="/assets/Screenshot_1.jpg" alt="Image 1" width="300"></td>
+    <td><img src="/assets/Screenshot_2.jpg" alt="Image 1" width="300"></td>
+    <td><img src="/assets/Screenshot_3.jpg" alt="Image 1" width="300"></td>
   </tr>
 </table>
 
