@@ -1,1 +1,1 @@
-# dsai-module-5-telegram-gemini
+# dsai-module-5-telegram-gemini-bot
