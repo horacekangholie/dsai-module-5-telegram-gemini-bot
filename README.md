@@ -29,7 +29,7 @@ Start commnad: `python bot.py`
 
 ### Result screenshots
 
-| ![Image 1](/assets/Screenshot_1.jpg) | ![Image 2]((/assets/Screenshot_2.jpg) |
+| ![Alt Text](/assets/Screenshot_1.jpg) | ![Alt Text]((/assets/Screenshot_2.jpg) |
 |:------------------------------------:|:-------------------------------------:|
 
 
