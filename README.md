@@ -25,6 +25,7 @@ Create environment variables in Render.com project
 | ---------------- | ------------------------- |
 | `TELEGRAM_TOKEN` | *(Telegram bot token)*    |
 | `GEMINI_KEY`     | *(Gemini API key)*        |
+
 Build command: `pip install -r requirements.txt`
 Start commnad: `python bot.py`
 
