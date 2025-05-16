@@ -23,8 +23,8 @@ This bot listens for messages on Telegram, forwards them to Google’s Gemini mo
 Create environment variables in Render.com project
 | Variable         | Value                     |
 | ---------------- | ------------------------- |
-| `TELEGRAM_TOKEN` | _(Telegram bot token) _   |
-| `GEMINI_KEY`     | _(Gemini API key) _       |
+| `TELEGRAM_TOKEN` | *(Telegram bot token)*    |
+| `GEMINI_KEY`     | *(Gemini API key)*        |
 Build command: `pip install -r requirements.txt`
 Start commnad: `python bot.py`
 
