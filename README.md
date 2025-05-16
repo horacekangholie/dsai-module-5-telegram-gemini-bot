@@ -32,8 +32,14 @@ Start commnad: `python bot.py`
 | ![Alt Text](/assets/Screenshot_1.jpg) | ![Alt Text]((/assets/Screenshot_2.jpg) | ![Alt Text]((/assets/Screenshot_3.jpg) |
 |:-------------------------------------:|:-------------------------------------:|:---------------------------------------:|
 
-<img src="/asset/Screenshot_1.jpg" alt="Image 1" width="200" />  
-<img src="path/to/image2.png" alt="Image 2" width="200" />
+
+<table>
+  <tr>
+    <td><img src="/assets/Screenshot_1.jpg" alt="Image 1" width="200"></td>
+    <td><img src="/assets/Screenshot_2.jpg" alt="Image 1" width="200"></td>
+    <td><img src="/assets/Screenshot_3.jpg" alt="Image 1" width="200"></td>
+  </tr>
+</table>
 
 
 
