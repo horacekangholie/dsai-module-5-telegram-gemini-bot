@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Long-polling Telegram ↔ Gemini bot wrapped in a Flask health-check endpoint
-so it can deploy as a Web Service on Render.com.
+so it can deploy as a Web Service on Render.com, with a custom /start welcome.
 """
 
 import os
@@ -13,6 +13,14 @@ import google.generativeai as genai
 from flask import Flask
 
 app = Flask(__name__)
+
+# ——— Customizable welcome message ———
+def get_welcome_message() -> str:
+    """
+    Return the bot’s welcome text.
+    In future, this could fetch from a database.
+    """
+    return "Hi there! Welcome to my bot. How can I help you today?"
 
 # ——— Your existing key-loading logic ———
 def retrieve_key(service_name: str) -> str:
@@ -75,8 +83,14 @@ def run_bot():
                 chat_id = message['chat']['id']
                 text    = message['text'].strip()
 
+                # Handle /start: custom welcome
+                if text.lower() == '/start':
+                    send_message(chat_id, get_welcome_message())
+                    continue
+
+                # Handle quit
                 if text.lower() == 'quit':
-                    send_message(chat_id, "Alright, feel free to ask me question anytime.")
+                    send_message(chat_id, "Alright, feel free to ask me questions anytime.")
                     continue
 
                 # Otherwise, forward to Gemini
